@@ -19,6 +19,21 @@ public class Client {
 		//now we can't pass null, we have to use the builder class only 	
 
 		
+		//we can also write it like->
+		
+		//PRODUCTION READY CODE FOR BUILDER DESIGN PATTERN
+		
+//		Student s2= Student.createBuild()
+//				.setAge(12)
+//				.setFname("aAndh")
+//				.setLname("Gau")
+//				.setWeight(49)
+//				.build();
+		
+		//first it will give error 
+		//we need to chnage the type of setter to-> Builder
+//		and at last return this
+		
 		System.out.println(s1.getFname());
 	}
 
